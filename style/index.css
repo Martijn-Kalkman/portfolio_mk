@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,200&display=swap');
+
+html{
+    top: 0;
+    color: white;
+}
+
+body {
+  background-color: #222831;
+  font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0;
+  }
+
+h1, h2{
+    padding-top: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+h3{
+    margin-bottom: 2px;
+}
+
+.sect
+
+.mobile-menu {
+    display: none;
+}
+
+.aboutme-section {
+    text-align: center;
+    padding: 4em;
+    display: flex;
+}
+
+.aboutMe{
+    font-size: 1.5em;
+    background-color: rgba(31, 29, 30, 0.8);
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.6);
+    width: 60%;
+    margin-left: 10%;
+    border-radius: 1%;
+}
+
+.aboutMe, .hobby p{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 15px;
+    text-align: left;
+    margin-left: 1em;
+ }
+
+
+.portfolioImage img{
+    width: 350px;
+    border-radius: 1%;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+.hobbies {
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+}
+
+.hobby, .games, .music{
+    margin: 20px;
+    background-color: rgba(31, 29, 30, 0.8);
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.6);
+    width: 40%;
+    border-radius: 1%;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.projecten {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.project {
+    width: 90vw;
+    text-align: center;
+}
+
+.music p{
+    margin: 2px;
+    text-align: center;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+ }
+
+
+ .img-banner img{
+    display: flex;
+    border-radius: 1%;
+    width: 50%;
+    margin: 20px auto 0;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.6);
+ }
+
+ .flip-card {
+    background-color: transparent;
+    width: 540px;
+    height: 300px;
+    perspective: 1000px;
+    margin: 20px;
+  }
+
+  .flip-card-inner p {
+    font-size: 20px;
+  }
+
+  .flip-card-inner a{
+    text-decoration: none;
+    color: #B55400;
+  }
+
+  .flip-card-inner img{
+    height: 100%;
+    width: 100%;
+  }
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+
+  .flip-card-back {
+    background-color: rgba(31, 29, 30, 0.8);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .section1, .section2, .section3, .section4{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+  }
+
+  .section4{
+    padding-bottom: 30px;
+  }
+
+  .container {
+    width:100%;  }
+  
+  .skills {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .html {width: 90%; background-color: #04AA6D;}
+  .css {width: 80%; background-color: #2196F3;}
+  .js {width: 60%; background-color: #f44336;}
+  .php {width: 75%; background-color: #808080;}

@@ -1,0 +1,96 @@
+@media only screen and (max-width: 600px) {
+
+    .nav-container {
+        visibility: hidden;
+    }
+
+    .container{
+        width: 20px;
+    }
+
+     .mobile-menu {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        padding-top: 0.8em;
+        height: 2.8em;
+        z-index: 1;
+    } 
+
+    .section1, .section2, .section3 {
+        padding-top: 2.8em;
+    }
+
+    .main{
+        margin-left: 0;
+    }
+
+    .portfolioImage img{
+        width: 180px;
+        border-radius: 20%;
+        box-shadow: 8px 8px rgba(0, 0, 0, 0.4);
+    }
+
+    .aboutme-section {
+        padding: 1em;
+    }
+
+    .aboutMe{
+        font-size: 1em;
+        background-color: rgba(31, 29, 30, 0.3);
+        box-shadow: 8px 8px rgba(0, 0, 0, 0.4);
+        width: 74vw;
+        border-radius: 5%;
+    }
+
+    .hobbies {
+        flex-direction: column;
+    }
+
+    .hobby, .games, .music, .skills{
+        width: 82vw;
+        margin: 1.5em 1.5em 0.3em;
+        /* box-shadow: 8px 8px rgba(0, 0, 0, 0.4); */
+    }
+
+    .img-banner img{
+        width: 80%;
+        margin-bottom: 0;
+        box-shadow: 8px 8px rgba(0, 0, 0, 0.4);
+    }
+
+    .projecten {
+        flex-direction: column;
+    }
+
+    .flip-card {
+        max-width: 88vw;
+    }
+
+    .section1, .section2, .section3, .section4{
+        margin: auto;
+        width: 100%;
+        padding: 30px;
+      }
+
+      footer{
+        width: 100vw;
+      }
+
+}
+
+@media only screen and (max-width: 1250px) {
+
+    .aboutme-section {
+        flex-direction: column;
+    }
+
+    .section1{
+        height: auto;
+        margin: 0;
+    }
+
+}
